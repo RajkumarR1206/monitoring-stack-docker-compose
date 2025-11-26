@@ -20,6 +20,30 @@ It uses **Prometheus** to collect metrics, **Node Exporter** to gather system me
 
 ---
 
+##  Sample Output:
+
+* Monitoring using Docker compose:
+<img width="1356" height="270" alt="docker-compose" src="https://github.com/user-attachments/assets/5200aacd-a57f-48f1-ba0a-ce966b690f39" />
+
+* Node Exporter Metrics:
+<img width="1356" height="536" alt="Node-Exporter-Full-Dashboard" src="https://github.com/user-attachments/assets/bec28b4d-450d-4629-83b9-326b9fd4f31c" />
+
+
+* Grafana dashboards for CPU, Memory & Disk:
+<img width="1341" height="485" alt="Dashboards" src="https://github.com/user-attachments/assets/f13d5f25-274c-4574-874f-7b2d8e59db48" />
+
+CPU usage:
+<img width="1360" height="584" alt="CPU-Usage" src="https://github.com/user-attachments/assets/9c6ca554-176f-4e60-a248-5badfc2f5a58" />
+
+Memory Usage:
+<img width="1360" height="597" alt="Memory-usage" src="https://github.com/user-attachments/assets/41b1ae0c-1a25-41bd-a7d0-ac3881228be0" />
+
+Disk Usage:
+<img width="1347" height="584" alt="Disk-usage" src="https://github.com/user-attachments/assets/aacfc539-d1f3-4c18-960b-31f8003994ab" />
+
+
+
+---
 ## Project Structure
 
 ```
