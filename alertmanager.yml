@@ -1,0 +1,24 @@
+#global:
+#  resolve_timeout: 1m
+#
+#route:
+#  receiver: "default"
+#
+#receivers:
+#  - name: "default"
+global:
+  smtp_smarthost: 'smtp.gmail.com:587'
+  smtp_from: 'rajkumartest@gmail.com'
+  smtp_auth_username: 'rajkumartest@gmail.com'
+  smtp_auth_password: 'Password@123'
+  smtp_require_tls: true
+
+route:
+  receiver: 'gmail-notifications'
+
+receivers:
+  - name: 'gmail-notifications'
+    email_configs:
+      - to: 'rajkumartest@gmail.com'
+        send_resolved: true
+
